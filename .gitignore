@@ -1,0 +1,46 @@
+# Ignore Java build files
+target/
+*.jar
+*.war
+*.ear
+
+# Maven and Gradle
+.mvn/
+.gradle/
+build/
+!src/main/resources/
+
+# Ignore Node.js dependencies
+node_modules/
+*.log
+package-lock.json
+yarn.lock
+
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Ignore Docker files
+*.env
+.envrc
+.env.local
+docker-compose.override.yml
+
+# Ignore Kubernetes manifests (optional)
+k8s/*.yaml
+k8s/*.yml
+
+# Ignore IntelliJ/VSCode/Eclipse config files
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
